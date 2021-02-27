@@ -1,0 +1,368 @@
+/* grid */
+
+body { 
+    display: grid;
+    grid-template-areas: 
+      "header header header"
+      "article article article"
+      "ads footer footer";
+    grid-template-columns: 20% 1fr 15%;
+    grid: 10px 20px;
+    height: 100vh;
+    margin: 0;
+    }
+  header, footer, article, nav, div {
+    padding: 20px;
+  }
+  #pageHeader {
+    grid-area: header;
+  }
+  #pageFooter {
+    grid-area: footer;
+  }
+  #mainArticle { 
+    grid-area: article;      
+  }
+  #siteAds { 
+    grid-area: ads; 
+  }
+    
+/* body */
+
+h3,p,form,label {
+    color: #FF8C00;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+    border-top: solid 5px rgb(228, 228, 228);
+    border-left: solid 5px rgb(228, 228, 228);
+    border-bottom: solid 5px red;
+    border-right: solid 5px red;
+}
+
+.two {
+    border: solid 5px rgb(41, 179, 224);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.three {
+    display: flex;
+    justify-content: space-around;
+    border-top: solid 5px rgb(248, 248, 136);
+    border-left: solid 5px rgb(107, 106, 106);
+    border-right: solid 5px rgb(75, 24, 24);
+    border-bottom: solid 5px #c58d40;
+}
+
+
+/* animaciones */
+
+.trivia {
+    padding: 40px 50px 60px 30px;
+    margin: 40px 0 250px 0 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.square1, .square3, .square5 {
+    background-color: white;
+    border-radius: 10px;
+    height: 175px;
+    margin: 100px;
+    width: 150px;
+    transition: transform 2.5s;
+}
+
+.square2, .square4, .square6 {
+    background-color:#FF8C00;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 175px;
+    margin: 100px;
+    width: 150px;
+    transition: transform 2.5s;
+    
+}
+
+.square1, .square2 {
+    position: absolute;
+    left: 350px;
+    font-family:'Bangers',cursive;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square3, .square4 {
+    position: absolute;
+    left: 550px;
+    font-family:'Bangers',cursive;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square5, .square6 {
+    position: absolute;
+    left: 750px;
+    font-family:'Bangers',cursive;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square2:hover, .square4:hover, .square6:hover {
+    transform: translate( 50px, 251px);
+}
+
+/* formulario */
+
+.form-padre {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 0 0 40px 0;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.legacy-form-row {
+    border: none;
+    margin-bottom: 40px;
+}
+
+.legacy-form-row legend {
+    margin-bottom: 15px;
+}
+
+.legacy-form-row input[type='radio'] {
+    margin-top: 2px;
+}
+
+.radio-label {
+    margin-bottom: 25px;
+}
+
+.form-row button {
+    width: 60px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5995da;
+    border: none;
+    cursor:pointer;
+}
+
+.form-row button:hover {
+    background-color:hotpink;
+}
+
+
+.Pelicula:hover, .Programa:hover, .Juego:hover {
+    filter: saturate(180%);
+}
+
+.control-remoto, .pochoclos, .joystick{
+    width:100px
+}
+
+footer, li {
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: #ff8c00;
+    font-size: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    font-family:'Bangers',cursive;
+    font-size:larger;
+    line-height: 2.3;
+    color: #FF8C00;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1em;
+    align-items: center;
+    text-align: center;
+    }
+
+
+.navLinks {
+    font-family:'Bangers',cursive;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    }
+
+/* header y footer */
+
+.margin{
+    margin-top: 17px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color:#FF8C00;
+    color: rgb(0, 0, 0);
+    font-family: 'Bangers',cursive;
+    line-height: 1.6;
+    letter-spacing: 1.2px;
+}
+
+.p-12{
+    padding: 12px;
+}
+
+/* mobile */
+@media only screen and (max-width:400px) {
+    body{
+        display: grid;
+        grid-template-rows: 190px 1fr 60px;
+        background:rgb(0, 0, 0);
+    }
+    .one, .two, .three {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .none  {
+        display: none;
+    }
+    .Pelicula, .yo {
+        width: 150px;
+    }
+    .Programa,.Juego {
+        width: 150px;
+    }
+    .T-B-1 {
+        width: 200px;
+    }
+    .T-B-2 {
+        width: 260px;
+    }
+    .T-B-3 {
+        width: 185px;
+    }
+    .A-R {
+        width: 200px;
+    }
+    .Y-N {
+        width: 220px;
+    }
+    h1 {
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .none {
+        display: none;
+    }
+}
+
+/* tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+        grid-template-rows: 190px 1fr 60px;
+        background:rgb(0, 0, 0);
+    }
+    .one, .two, .three {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Programa {
+        width: 170px;
+    }
+    .none {
+        display: none;
+    }
+    .Pelicula, .yo {
+        width: 170px;
+    }
+    .Programa,.Juego {
+        width: 170px;
+    }
+    .T-B-1 {
+        width: 500px;
+    }
+    .T-B-2 {
+        width: 500px;
+    }
+    .T-B-3 {
+        width: 400px;
+    }
+    .A-R {
+        width: 500px;
+    }
+    .Y-N {
+        width: 550px;
+    }
+    .none {
+        display: none;
+    }
+    h1 {
+        font-size: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+/* desktop */
+@media only screen and (min-width: 961px){
+    body{
+        grid-template-rows: 205px 10fr 60px;
+        background-color: rgb(0, 0, 0);
+ 
+    }
+    .Pelicula, .yo {   
+        width: 200px;
+        height: auto;
+    }
+    
+    .Programa,.Juego{
+        width: 335px;
+        height: auto;
+    }
+
+    .T-B-1 {
+        width: 1300px;
+    }
+    .T-B-2 {
+        width: 1260px;
+    }
+    .T-B-3 {
+        width: 1385px;
+    }
+    .A-R {
+        width: 1300px;
+    }
+    .Y-N {
+        width: 1275px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}

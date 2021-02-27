@@ -1,0 +1,135 @@
+@import 'base/imports';
+
+/* grid */
+
+body { 
+    display: grid;
+    grid-template-areas: 
+      "header header header"
+      "article article article"
+      "footer footer footer";
+    grid-template-columns: 20% 1fr 15%;
+    grid: 10px 20px;
+    height: 100vh;
+    margin: 0;
+    }
+  header, footer, article, nav, div {
+    padding: 20px;
+  }
+  #pageHeader {
+    grid-area: header;
+  }
+  #pageFooter {
+    grid-area: footer;
+  }
+  #mainArticle { 
+    grid-area: article;      
+  }
+  #siteAds { 
+    grid-area: ads; 
+  }
+/*fin del grid*/ 
+
+.trivia {
+    padding: 40px 50px 60px 30px;
+    margin: 40px 0 250px 0 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .square1, .square3, .square5,
+    .square2, .square4, .square6 {
+    @extend %trivia;
+    @extend %trivia2;
+    font-family: $font-primario;
+    }
+
+    .square1, .square2 {
+        left: 350px;
+    }
+    
+    .square3, .square4 {
+        left: 550px;
+    }
+    
+    .square5, .square6 {
+        left: 750px;
+    }
+    
+    .square1, .square3, .square5 {
+        background-color: white;
+    }
+    
+    .square2, .square4, .square6 {
+        background-color:$color-primario;
+
+        &:hover {
+            transform: translate(50px, 251px);
+        }
+    }
+}
+
+article {
+
+    h3,p {
+        color:$color-primario;
+        text-align: center;
+        font-family: $font-secundario;
+       font-weight: bolder;
+    }
+
+    .one {
+        display: flex;
+        justify-content: space-around;
+        background-color: $color-primario;
+        margin-bottom: 10px;
+    }
+    
+    .two {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        background-color: $color-primario;
+        margin-bottom: 10px;
+    }
+    
+    .three {
+        display: flex;
+        justify-content: space-around;
+        background-color: $color-primario;
+        margin-bottom: 10px;
+    }   
+    .Pelicula, .yo {
+        width: 315px;
+        height: auto;
+
+        &:hover {
+            filter: saturate(180%);
+        }
+    }
+    .Programa, .Juego {
+        width: 335px;
+        height: auto;
+
+        &:hover {
+            filter: saturate(180%);
+        }
+    }
+    li {
+        background-color: $color-primario;
+        font-family: $font-secundario;
+        font-weight: bold;
+        letter-spacing: 1px;
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 20px;
+        }
+}
+
+.bg-2 {
+    background-image: url(../Imagenes/Multimedia/Fondo-cine.jpg);
+    background-repeat: no-repeat;
+    background-size:1520px;
+}
+
+

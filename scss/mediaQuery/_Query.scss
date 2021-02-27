@@ -1,0 +1,109 @@
+
+/*desktop*/ 
+@media only screen and (min-width: 961px) {
+    body {
+        grid-template-rows: 205px 10fr 60px;
+        background-color:$color-secundario;
+    }
+    .Pelicula, .yo {
+        width: 315px;
+        height: auto;
+
+        &:hover {
+            filter: saturate(180%);
+        }
+    }
+    .Programa, .Juego {
+        width: 335px;
+        height: auto;
+
+        &:hover {
+            filter: saturate(180%);
+        }
+    }
+    .control-remoto, .pochoclos, .joystick {
+        width: 50px;
+    }
+    .T-B-1, .A-R {
+        width: 1300px;
+    }
+    .T-B-2 {
+        width: 1260px;
+    }
+    .T-B-3 {
+        width: 1385px;
+    }
+    .Y-N {
+        width: 1275px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
+
+/*tablet*/
+@media only screen and (min-width:401px) and (max-width:960px) {
+    body {
+    grid-template-rows: 190px 1fr 60px;
+    background-color:$color-secundario;
+    }
+    .one, .two, .three {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Pelicula, .Programa, .Juego, yo {
+        width: 170px;
+    }
+    .T-B-1, .T-B-2, .A-R {
+        width: 500px;
+    }
+    .T-B-3 {
+        width: 400px;
+    }
+    .Y-N {
+        width: 550px;
+    }
+    .none {
+        display: none;
+    }
+    h1 {
+        font-size: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/*Mobile*/
+@media only screen and (max-width:400px) {
+    body {
+        grid-template-rows:190px 1fr 60px;
+        background-color:$color-secundario;
+    }
+    .one, .two, .three {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Programa, .Pelicula, .yo, .Juego {
+        width: 150px;
+    }
+    .T-B-1, .A-R {
+        width: 200px;
+    }
+    .T-B-2 {
+        width: 260px;
+    }
+    .T-B-3 {
+        width: 185px;
+    }
+    .Y-N {
+        width: 220px;
+    }
+    h1 {
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .none {
+        display: none;
+    }
+} 

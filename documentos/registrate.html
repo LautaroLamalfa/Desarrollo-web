@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Registrate</title>
+</head>
+
+<body>
+
+<header class="p-12"  id="pageHeader">
+    <a class="navbar-brand" href="index.html">
+        <img src="../imagenes/Iconos/Logo.png" alt="Logo" class="size"></a>
+    <h2>Ingresa tus Datos</h2>
+</header>
+
+<article id="mainArticle">
+   <h3>Si ya tenés una cuenta creada, inicia sesión desde <a href="Inicia-sesión.html" style="color: #ff8c00;">Aquí</a></h3>
+    <form action="" method="POST" class="form-padre">
+
+<!-- formulario -->
+
+        <div class="form-row">
+            <label for="fname">Nombre</label>
+                <input type="text" id="fname" name="Nombre" placeholder="Canuto">
+            <label for="lname">Apellido</label>
+                <input type="text" id="lname" name="Apeliido" placeholder="Cañete">
+            <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com">
+            <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password">
+                    
+                <fieldset class="legacy-form-row">
+                    <legend>Género</legend>
+                
+                    <label for="Género" class="radio-label">Masculino</label>
+                        <input type="radio" name="Género" id="Género"><br>
+                
+                    <label for="Género" class="radio-label">Femenino</label>
+                        <input type="radio" name="Género" id="Género"><br>
+
+                    <label for="Género" class="radio-label">Otro</label>
+                        <input type="radio" name="Género" id="Género"><br>
+                </fieldset>
+            <!-- código provisto por bootstrap -->
+            <label>¿Que te gusta?</label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Películas</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Programas</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                <label class="form-check-label" for="inlineCheckbox3">Juegos</label>
+            </div> 
+            
+            <label for="mensaje">Describite (opcional)</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</article>
+
+
+<footer id="pageFooter">
+
+    <a href="https://www.facebook.com/"><img src="../Imagenes/Iconos/Facebook Logo.png" alt="Facebook" class="size"></a>
+    <a href="https://twitter.com/?lang=es"><img src="../Imagenes/Iconos/Twitter Logo.png" alt="Twitter" class="size"></a>
+    <a href="https://www.youtube.com/"><img src="../Imagenes/Iconos/Youtube Logo.png" alt="Youtube" class="size"></a>
+
+</footer>
+   
+</body>
+</html>

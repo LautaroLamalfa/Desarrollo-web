@@ -1,0 +1,22 @@
+
+%trivia {
+    position: absolute;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+%trivia2 {
+    border-radius: 10px;
+    height: 175px;
+    margin: 100px;
+    width: 150px;
+    transition: transform 2.5s;
+}
+
+%flex {
+    display: flex;
+    justify-content: space-around;
+}
