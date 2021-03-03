@@ -364,6 +364,9 @@ article .Programa, article .Juego {
 article .Programa:hover, article .Juego:hover {
   filter: saturate(180%);
 }
+article .Pelicula, article .Programa, article .Juego {
+  border-radius: 50px;
+}
 article li {
   background-color: #ff8c00;
   font-family: "Open Sans", sans-serif;

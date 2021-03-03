@@ -115,6 +115,10 @@ article {
             filter: saturate(180%);
         }
     }
+
+    .Pelicula, .Programa, .Juego {
+        border-radius: 50px;
+    }
     li {
         background-color: $color-primario;
         font-family: $font-secundario;
