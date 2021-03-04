@@ -265,6 +265,10 @@ form, label {
   background-color: hotpink;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* grid */
 body {
   display: grid;

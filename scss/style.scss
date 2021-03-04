@@ -1,5 +1,9 @@
 @import 'base/imports';
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* grid */
 
 body { 
