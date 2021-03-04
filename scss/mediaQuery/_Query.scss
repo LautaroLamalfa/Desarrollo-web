@@ -51,8 +51,15 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .Pelicula, .Programa, .Juego, yo {
+    .Pelicula, .Programa, .Juego, .yo {
         width: 170px;
+
+        &:hover {
+            filter: saturate(180%);
+        }
+    }
+    .control-remoto, .pochoclos, .joystick {
+        width: 50px;
     }
     .T-B-1, .T-B-2, .A-R {
         width: 500px;
@@ -83,8 +90,18 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .Programa, .Pelicula, .yo, .Juego {
+    .Programa, .Pelicula, .Juego {
         width: 150px;
+
+        &:hover {
+            filter: saturate(180%);
+        }
+    }
+    .yo {
+        width: 120px;
+    }
+    .control-remoto, .pochoclos, .joystick {
+        width: 50px;
     }
     .T-B-1, .A-R {
         width: 200px;

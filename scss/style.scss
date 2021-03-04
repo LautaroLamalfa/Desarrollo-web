@@ -79,7 +79,7 @@ article {
         color:$color-primario;
         text-align: center;
         font-family: $font-secundario;
-       font-weight: bolder;
+        font-weight: bolder;
     }
 
     .one {
@@ -103,28 +103,12 @@ article {
         background-color: $color-primario;
         margin-bottom: 10px;
     }   
-    .Pelicula, .yo {
-        width: 315px;
-        height: auto;
-
-        &:hover {
-            filter: saturate(180%);
-        }
-    }
-    .Programa, .Juego {
-        width: 335px;
-        height: auto;
-
-        &:hover {
-            filter: saturate(180%);
-        }
-    }
-
     .Pelicula, .Programa, .Juego {
         border-radius: 50px;
     }
 
     .yo {
+        border-radius: 10px;
         float: right;
     }
     li {
@@ -136,12 +120,6 @@ article {
         text-decoration: none;
         font-size: 20px;
         }
-}
-
-.bg-2 {
-    background-image: url(../Imagenes/Multimedia/Fondo-cine.jpg);
-    background-repeat: no-repeat;
-    background-size:1520px;
 }
 
 

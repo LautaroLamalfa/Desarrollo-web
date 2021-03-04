@@ -75,8 +75,15 @@
     flex-wrap: wrap;
   }
 
-  .Pelicula, .Programa, .Juego, yo {
+  .Pelicula, .Programa, .Juego, .yo {
     width: 170px;
+  }
+  .Pelicula:hover, .Programa:hover, .Juego:hover, .yo:hover {
+    filter: saturate(180%);
+  }
+
+  .control-remoto, .pochoclos, .joystick {
+    width: 50px;
   }
 
   .T-B-1, .T-B-2, .A-R {
@@ -113,8 +120,19 @@
     flex-wrap: wrap;
   }
 
-  .Programa, .Pelicula, .yo, .Juego {
+  .Programa, .Pelicula, .Juego {
     width: 150px;
+  }
+  .Programa:hover, .Pelicula:hover, .Juego:hover {
+    filter: saturate(180%);
+  }
+
+  .yo {
+    width: 120px;
+  }
+
+  .control-remoto, .pochoclos, .joystick {
+    width: 50px;
   }
 
   .T-B-1, .A-R {
@@ -229,6 +247,7 @@ form, label {
   margin-bottom: 40px;
 }
 .form-padre .form-row {
+  width: 600px;
   margin-bottom: 40px;
   display: flex;
   justify-content: flex-start;
@@ -355,24 +374,11 @@ article .three {
   background-color: #ff8c00;
   margin-bottom: 10px;
 }
-article .Pelicula, article .yo {
-  width: 315px;
-  height: auto;
-}
-article .Pelicula:hover, article .yo:hover {
-  filter: saturate(180%);
-}
-article .Programa, article .Juego {
-  width: 335px;
-  height: auto;
-}
-article .Programa:hover, article .Juego:hover {
-  filter: saturate(180%);
-}
 article .Pelicula, article .Programa, article .Juego {
   border-radius: 50px;
 }
 article .yo {
+  border-radius: 10px;
   float: right;
 }
 article li {
@@ -383,12 +389,6 @@ article li {
   list-style-type: none;
   text-decoration: none;
   font-size: 20px;
-}
-
-.bg-2 {
-  background-image: url(../Imagenes/Multimedia/Fondo-cine.jpg);
-  background-repeat: no-repeat;
-  background-size: 1520px;
 }
 
 /*# sourceMappingURL=style.css.map */
