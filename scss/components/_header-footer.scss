@@ -18,6 +18,7 @@ header {
             padding: 10px;
             background-color: $color-primario;
             color: $color-secundario;
+            transition: 3s;
         }
     }
     
@@ -40,7 +41,7 @@ header {
     }
 
     .navLinks {
-        font-family:$font-primario;
+        font-family:$font-secundario;
         font-size: 1.2em;
         text-decoration: none;
         color:$color-secundario;

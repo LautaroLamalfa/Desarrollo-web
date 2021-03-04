@@ -162,6 +162,7 @@ header .color:hover {
   padding: 10px;
   background-color: #ff8c00;
   color: black;
+  transition: 3s;
 }
 header .size {
   width: 60px;
@@ -179,7 +180,7 @@ header nav {
   text-align: center;
 }
 header .navLinks {
-  font-family: "Bangers", cursive;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.2em;
   text-decoration: none;
   color: black;
