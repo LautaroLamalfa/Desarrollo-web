@@ -172,7 +172,7 @@ header .control-remoto, header .pochoclos, header .joystick {
 }
 header nav {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
   grid-gap: 1em;
   align-items: center;
@@ -366,6 +366,9 @@ article .Programa:hover, article .Juego:hover {
 }
 article .Pelicula, article .Programa, article .Juego {
   border-radius: 50px;
+}
+article .yo {
+  float: right;
 }
 article li {
   background-color: #ff8c00;

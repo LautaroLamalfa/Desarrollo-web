@@ -119,6 +119,10 @@ article {
     .Pelicula, .Programa, .Juego {
         border-radius: 50px;
     }
+
+    .yo {
+        float: right;
+    }
     li {
         background-color: $color-primario;
         font-family: $font-secundario;
