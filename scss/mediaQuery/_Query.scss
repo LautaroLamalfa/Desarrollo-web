@@ -52,7 +52,7 @@
         flex-wrap: wrap;
     }
     .Pelicula, .Programa, .Juego, .yo {
-        width: 170px;
+        width: 250px;
 
         &:hover {
             filter: saturate(180%);
@@ -128,8 +128,5 @@
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
-    }
-    .none {
-        display: none;
     }
 } 

@@ -13,7 +13,6 @@ body {
       "article article article"
       "footer footer footer";
     grid-template-columns: 20% 1fr 15%;
-    grid: 10px 20px;
     height: 100vh;
     margin: 0;
     }
@@ -70,6 +69,22 @@ body {
         &:hover {
             transform: translate(50px, 251px);
         }
+    }
+    @media only screen and (min-width:401px) and (max-width:960px) {
+        .square1, .square2 {
+            left: 5px;
+        }
+        
+        .square3, .square4 {
+            left: 160px;
+        }
+        
+        .square5, .square6 {
+            left: 315px;
+        }
+    }
+    @media only screen and (max-width:400px) {
+        display: none;
     }
 }
 

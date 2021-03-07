@@ -76,7 +76,7 @@
   }
 
   .Pelicula, .Programa, .Juego, .yo {
-    width: 170px;
+    width: 250px;
   }
   .Pelicula:hover, .Programa:hover, .Juego:hover, .yo:hover {
     filter: saturate(180%);
@@ -166,10 +166,6 @@
     font-size: 20px;
     display: flex;
     flex-wrap: wrap;
-  }
-
-  .none {
-    display: none;
   }
 }
 header {
@@ -301,7 +297,6 @@ body {
   display: grid;
   grid-template-areas: "header header header" "article article article" "footer footer footer";
   grid-template-columns: 20% 1fr 15%;
-  grid: 10px 20px;
   height: 100vh;
   margin: 0;
 }
@@ -355,6 +350,22 @@ header, footer, article, nav, div {
 }
 .trivia .square2:hover, .trivia .square4:hover, .trivia .square6:hover {
   transform: translate(50px, 251px);
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .trivia .square1, .trivia .square2 {
+    left: 5px;
+  }
+  .trivia .square3, .trivia .square4 {
+    left: 160px;
+  }
+  .trivia .square5, .trivia .square6 {
+    left: 315px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .trivia {
+    display: none;
+  }
 }
 
 article h3, article p {
