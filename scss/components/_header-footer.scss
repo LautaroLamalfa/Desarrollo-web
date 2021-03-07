@@ -26,11 +26,6 @@ header {
         width: 60px ; 
         height: 54px ;
     }
-
-    .control-remoto, .pochoclos, .joystick {
-        width: 100px;
-    }
-
     nav {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

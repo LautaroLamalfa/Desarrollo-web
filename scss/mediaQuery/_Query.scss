@@ -22,7 +22,7 @@
         }
     }
     .control-remoto, .pochoclos, .joystick {
-        width: 50px;
+        width: 100px;
     }
     .T-B-1, .A-R {
         width: 1300px;
@@ -58,8 +58,13 @@
             filter: saturate(180%);
         }
     }
+    .svg {
+        width: 250px;
+        height: auto;
+    }
     .control-remoto, .pochoclos, .joystick {
         width: 50px;
+        height: auto;
     }
     .T-B-1, .T-B-2, .A-R {
         width: 500px;
@@ -100,12 +105,12 @@
     .yo {
         width: 120px;
     }
-    .Inicia-Sesión {
-        width: 50px;
+    .svg {
+        width: 150px;
         height: auto;
     }
     .control-remoto, .pochoclos, .joystick {
-        width: 50px;
+        display: none;
     }
     .T-B-1, .A-R {
         width: 200px;
@@ -119,7 +124,7 @@
     .Y-N {
         width: 220px;
     }
-    h1 {
+    h1, h2 {
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
