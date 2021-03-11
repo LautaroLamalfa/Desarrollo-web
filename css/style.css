@@ -368,6 +368,9 @@ header, footer, article, nav, div {
   }
 }
 
+article h2 {
+  color: #ff8c00;
+}
 article h3, article p {
   color: #ff8c00;
   text-align: center;
