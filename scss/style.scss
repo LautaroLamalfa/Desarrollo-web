@@ -89,6 +89,9 @@ body {
 }
 
 article {
+    h2 {
+        color: $color-primario;
+    }
 
     h3,p {
         color:$color-primario;
