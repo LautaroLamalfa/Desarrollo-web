@@ -403,6 +403,9 @@ article .yo {
   border-radius: 10px;
   float: right;
 }
+article .logo {
+  float: left;
+}
 article li {
   background-color: #ff8c00;
   font-family: "Open Sans", sans-serif;
