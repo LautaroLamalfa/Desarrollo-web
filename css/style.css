@@ -82,6 +82,10 @@
     filter: saturate(180%);
   }
 
+  .logo {
+    width: 80px;
+  }
+
   .svg {
     width: 250px;
     height: auto;
