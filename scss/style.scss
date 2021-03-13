@@ -89,6 +89,9 @@ body {
 }
 
 article {
+    .intro {
+        margin-top: 15px;
+    }
     h2 {
         color: $color-primario;
     }
