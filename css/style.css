@@ -133,6 +133,10 @@
     filter: saturate(180%);
   }
 
+  .logo {
+    width: 50px;
+  }
+
   .yo {
     width: 120px;
   }
@@ -405,9 +409,6 @@ article .Pelicula, article .Programa, article .Juego {
 article .yo {
   border-radius: 10px;
   float: right;
-}
-article .logo {
-  float: left;
 }
 article li {
   background-color: #ff8c00;

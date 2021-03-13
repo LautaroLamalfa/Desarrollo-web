@@ -95,12 +95,15 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .Programa, .Pelicula, .Juego, .logo {
+    .Programa, .Pelicula, .Juego {
         width: 150px;
 
         &:hover {
             filter: saturate(180%);
         }
+    }
+    .logo {
+        width: 50px;
     }
     .yo {
         width: 120px;
