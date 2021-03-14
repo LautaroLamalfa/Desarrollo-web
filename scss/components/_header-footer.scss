@@ -22,11 +22,6 @@ header {
         }
     }
     
-    .size {
-        width: 60px ; 
-        height: 54px ;
-        float: right;
-    }
     nav {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

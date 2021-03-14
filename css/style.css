@@ -198,11 +198,6 @@ header .color:hover {
   color: black;
   transition: 3s;
 }
-header .size {
-  width: 60px;
-  height: 54px;
-  float: right;
-}
 header nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
