@@ -67,6 +67,12 @@
   h1 {
     font-size: 30px;
   }
+
+  .video {
+    width: 715px;
+    height: 315px;
+    right: 150px;
+  }
 }
 /*tablet*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
@@ -121,6 +127,11 @@
     font-size: 15px;
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .video {
+    width: 415px;
+    height: 315px;
   }
 }
 /*Mobile*/

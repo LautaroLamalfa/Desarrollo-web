@@ -43,6 +43,11 @@
     h1 {
         font-size: 30px;
     }
+    .video {
+        width: 715px;
+        height: 315px;
+        right: 150px;
+    }
 }
 
 /*tablet*/
@@ -89,6 +94,11 @@
         font-size: 15px;
         display: flex;
         flex-wrap: wrap;
+    }
+    .video {
+        width: 415px;
+        height: 315px;
+
     }
 }
 
