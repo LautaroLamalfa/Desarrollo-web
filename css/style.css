@@ -201,6 +201,7 @@ header .color:hover {
 header .size {
   width: 60px;
   height: 54px;
+  float: right;
 }
 header nav {
   display: grid;
