@@ -5,7 +5,7 @@
         grid-template-rows: 205px 10fr 60px;
         background-color:$color-secundario;
     }
-    .Pelicula, .yo {
+    .Pelicula {
         width: 315px;
         height: auto;
 
@@ -51,7 +51,7 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .Pelicula, .Programa, .Juego, .yo {
+    .Pelicula, .Programa, .Juego {
         width: 250px;
 
         &:hover {
@@ -107,9 +107,6 @@
     }
     .logo {
         width: 50px;
-    }
-    .yo {
-        width: 120px;
     }
     .svg {
         width: 150px;
