@@ -23,11 +23,11 @@
     background-color: black;
   }
 
-  .Pelicula, .yo {
+  .Pelicula {
     width: 315px;
     height: auto;
   }
-  .Pelicula:hover, .yo:hover {
+  .Pelicula:hover {
     filter: saturate(180%);
   }
 
@@ -37,6 +37,11 @@
   }
   .Programa:hover, .Juego:hover {
     filter: saturate(180%);
+  }
+
+  .svg {
+    width: 300px;
+    height: auto;
   }
 
   .control-remoto, .pochoclos, .joystick {
@@ -75,10 +80,10 @@
     flex-wrap: wrap;
   }
 
-  .Pelicula, .Programa, .Juego, .yo {
+  .Pelicula, .Programa, .Juego {
     width: 250px;
   }
-  .Pelicula:hover, .Programa:hover, .Juego:hover, .yo:hover {
+  .Pelicula:hover, .Programa:hover, .Juego:hover {
     filter: saturate(180%);
   }
 
@@ -139,10 +144,6 @@
 
   .logo {
     width: 50px;
-  }
-
-  .yo {
-    width: 120px;
   }
 
   .svg {
