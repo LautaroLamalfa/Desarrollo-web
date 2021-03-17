@@ -165,8 +165,12 @@
     display: none;
   }
 
-  .T-B-1, .A-R {
+  .A-R {
     width: 150px;
+  }
+
+  .T-B-1 {
+    width: 200px;
   }
 
   .T-B-2 {
