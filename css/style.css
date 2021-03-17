@@ -165,7 +165,11 @@
     display: none;
   }
 
-  .T-B-1, .A-R {
+  .T-B-1 {
+    width: 200px;
+  }
+
+  .A-R {
     width: 250px;
   }
 
