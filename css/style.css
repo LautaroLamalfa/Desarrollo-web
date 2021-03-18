@@ -144,7 +144,7 @@
   }
 }
 /*Portrait phones*/
-@media only screen and (min-width: 400px) and (max-width: 575px) {
+@media only screen and (max-width: 575px) {
   body {
     grid-template-rows: 190px 1fr 60px;
     background-color: black;
