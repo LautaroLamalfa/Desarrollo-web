@@ -438,5 +438,8 @@ article li {
   text-decoration: none;
   font-size: 20px;
 }
+article .video {
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */
