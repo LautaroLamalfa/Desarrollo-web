@@ -46,22 +46,27 @@
 
   .control-remoto, .pochoclos, .joystick {
     width: 50px;
+    height: auto;
   }
 
   .T-B-1, .A-R {
     width: 1300px;
+    height: auto;
   }
 
   .T-B-2 {
     width: 1260px;
+    height: auto;
   }
 
   .T-B-3 {
     width: 1385px;
+    height: auto;
   }
 
   .Y-N {
     width: 1275px;
+    height: auto;
   }
 
   h1 {
@@ -87,6 +92,7 @@
 
   .Pelicula, .Programa, .Juego {
     width: 250px;
+    height: auto;
   }
   .Pelicula:hover, .Programa:hover, .Juego:hover {
     filter: saturate(180%);
@@ -94,6 +100,7 @@
 
   .logo {
     width: 80px;
+    height: auto;
   }
 
   .svg {
@@ -108,14 +115,17 @@
 
   .T-B-1, .T-B-2, .A-R {
     width: 500px;
+    height: auto;
   }
 
   .T-B-3 {
     width: 550px;
+    height: auto;
   }
 
   .Y-N {
     width: 550px;
+    height: auto;
   }
 
   .none {
@@ -133,8 +143,8 @@
     height: 315px;
   }
 }
-/*Mobile*/
-@media only screen and (max-width: 400px) {
+/*Portrait phones*/
+@media only screen and (min-width: 400px) and (max-width: 575px) {
   body {
     grid-template-rows: 190px 1fr 60px;
     background-color: black;
@@ -147,6 +157,7 @@
 
   .Programa, .Pelicula, .Juego {
     width: 150px;
+    height: auto;
   }
   .Programa:hover, .Pelicula:hover, .Juego:hover {
     filter: saturate(180%);
@@ -154,6 +165,7 @@
 
   .logo {
     width: 50px;
+    height: auto;
   }
 
   .svg {
@@ -167,22 +179,27 @@
 
   .A-R {
     width: 150px;
+    height: auto;
   }
 
   .T-B-1 {
     width: 180px;
+    height: auto;
   }
 
   .T-B-2 {
     width: 160px;
+    height: auto;
   }
 
   .T-B-3 {
     width: 170px;
+    height: auto;
   }
 
   .Y-N {
     width: 220px;
+    height: auto;
   }
 
   h1, h2 {
@@ -235,8 +252,8 @@ footer .margin {
   margin-top: 100px;
 }
 footer .size {
-  width: 60px;
-  height: 54px;
+  width: 80px;
+  height: 74px;
 }
 footer li {
   background-color: #ff8c00;

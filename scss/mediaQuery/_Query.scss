@@ -27,18 +27,23 @@
     }
     .control-remoto, .pochoclos, .joystick {
         width: 50px;
+        height: auto;
     }
     .T-B-1, .A-R {
         width: 1300px;
+        height: auto;
     }
     .T-B-2 {
         width: 1260px;
+        height: auto;
     }
     .T-B-3 {
         width: 1385px;
+        height: auto;
     }
     .Y-N {
         width: 1275px;
+        height: auto;
     }
     h1 {
         font-size: 30px;
@@ -61,6 +66,7 @@
     }
     .Pelicula, .Programa, .Juego {
         width: 250px;
+        height: auto;
 
         &:hover {
             filter: saturate(180%);
@@ -68,6 +74,7 @@
     }
     .logo {
         width: 80px;
+        height: auto;
     }
     .svg {
         width: 250px;
@@ -79,12 +86,15 @@
     }
     .T-B-1, .T-B-2, .A-R {
         width: 500px;
+        height: auto;
     }
     .T-B-3 {
         width: 550px;
+        height: auto;
     }
     .Y-N {
         width: 550px;
+        height: auto;
     }
     .none {
         display: none;
@@ -101,8 +111,8 @@
     }
 }
 
-/*Mobile*/
-@media only screen and (max-width:400px) {
+/*Portrait phones*/
+@media only screen and (min-width:400px) and (max-width:575px) {
     body {
         grid-template-rows:190px 1fr 60px;
         background-color:$color-secundario;
@@ -113,6 +123,7 @@
     }
     .Programa, .Pelicula, .Juego {
         width: 150px;
+        height: auto;
 
         &:hover {
             filter: saturate(180%);
@@ -120,6 +131,7 @@
     }
     .logo {
         width: 50px;
+        height: auto;
     }
     .svg {
         width: 150px;
@@ -130,18 +142,23 @@
     }
     .A-R {
         width: 150px;
+        height: auto;
     }
     .T-B-1 {
         width: 180px;
+        height: auto;
     }
     .T-B-2 {
         width: 160px;
+        height: auto;
     }
     .T-B-3 {
         width: 170px;
+        height: auto;
     }
     .Y-N {
         width: 220px;
+        height: auto;
     }
     h1, h2 {
         font-size: 20px;
@@ -155,7 +172,7 @@
 // // No media query for `xs` since this is the default in Bootstrap
 
 // // Small devices (landscape phones, 576px and up)
-// @media (min-width: 576px) { ... }
+// @media (min-width: 576px) {  }
 
 // // Medium devices (tablets, 768px and up)
 // @media (min-width: 768px) { ... }
