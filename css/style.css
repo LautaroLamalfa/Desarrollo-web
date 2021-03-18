@@ -439,7 +439,7 @@ article li {
   font-size: 20px;
 }
 article .video {
-  text-align: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
