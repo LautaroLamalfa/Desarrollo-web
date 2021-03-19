@@ -1,6 +1,60 @@
+/*desktop*/
+@media only screen and (min-width:992px) {
+    body {
+        grid-template-rows:220px 10fr 75px;
+        background-color: $color-secundario;
+    }
+    .Pelicula {
+        width: 325px;
+        height: auto;
 
-/*desktop*/ 
-@media only screen and (min-width: 961px) {
+        &:hover {
+            filter: saturate(180%);
+        }
+    }
+    .Programa, .Juego {
+        width: 355px;
+        height: auto;
+
+        &:hover {
+            filter: saturate(180%);
+        }
+    }
+    .svg {
+        width: 340px;
+        height: auto;
+    }
+    .control-remoto, .pochoclos, .joystick {
+        width: 60px;
+        height: auto;
+    }
+    .T-B-1, .A-R {
+        width: 1310px;
+        height: auto;
+    }
+    .T-B-2 {
+        width: 1270px;
+        height: auto;
+    }
+    .T-B-3 {
+        width: 1395px;
+        height: auto;
+    }
+    .Y-N {
+        width: 1285px;
+        height: auto;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .video {
+        width: 725px;
+        height: 325px;
+    }
+
+}  
+/*larger tablet*/ 
+@media only screen and (min-width: 768px) and (max-width:991px) {
     body {
         grid-template-rows: 205px 10fr 60px;
         background-color:$color-secundario;
@@ -54,8 +108,8 @@
     }
 }
 
-/*tablet*/
-@media only screen and (min-width:401px) and (max-width:960px) {
+/*tablet/landscape phone*/
+@media only screen and (min-width:480px) and (max-width:767px) {
     body {
     grid-template-rows: 190px 1fr 60px;
     background-color:$color-secundario;
@@ -112,7 +166,7 @@
 }
 
 /*Portrait phones*/
-@media only screen and (max-width:575px) {
+@media only screen and (max-width:479px) {
     body {
         grid-template-rows:190px 1fr 60px;
         background-color:$color-secundario;
