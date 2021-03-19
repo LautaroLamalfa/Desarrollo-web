@@ -1,5 +1,5 @@
 /*desktop*/
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:1025px) {
     body {
         grid-template-rows:220px 10fr 75px;
         background-color: $color-secundario;
@@ -54,7 +54,7 @@
 
 }  
 /*larger tablet*/ 
-@media only screen and (min-width: 768px) and (max-width:991px) {
+@media only screen and (min-width: 768px) and (max-width:1024px) {
     body {
         grid-template-rows: 205px 10fr 60px;
         background-color:$color-secundario;
@@ -84,19 +84,19 @@
         height: auto;
     }
     .T-B-1, .A-R {
-        width: 1300px;
+        width: 750px;
         height: auto;
     }
     .T-B-2 {
-        width: 1260px;
+        width: 710px;
         height: auto;
     }
     .T-B-3 {
-        width: 1385px;
+        width: 785px;
         height: auto;
     }
     .Y-N {
-        width: 1275px;
+        width: 675px;
         height: auto;
     }
     h1 {
