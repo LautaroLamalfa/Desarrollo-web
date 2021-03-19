@@ -444,6 +444,33 @@ header, footer, article, nav, div {
 .trivia .square5, .trivia .square6 {
   left: 750px;
 }
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .trivia .square1, .trivia .square2 {
+    left: 5px;
+  }
+  .trivia .square3, .trivia .square4 {
+    left: 165px;
+  }
+  .trivia .square5, .trivia .square6 {
+    left: 320px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .trivia .square1, .trivia .square2 {
+    left: 105px;
+  }
+  .trivia .square3, .trivia .square4 {
+    left: 265px;
+  }
+  .trivia .square5, .trivia .square6 {
+    left: 420px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .trivia {
+    display: none;
+  }
+}
 .trivia .square1, .trivia .square3, .trivia .square5 {
   background-color: white;
 }
@@ -452,22 +479,6 @@ header, footer, article, nav, div {
 }
 .trivia .square2:hover, .trivia .square4:hover, .trivia .square6:hover {
   transform: translate(50px, 251px);
-}
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  .trivia .square1, .trivia .square2 {
-    left: 5px;
-  }
-  .trivia .square3, .trivia .square4 {
-    left: 160px;
-  }
-  .trivia .square5, .trivia .square6 {
-    left: 315px;
-  }
-}
-@media only screen and (max-width: 400px) {
-  .trivia {
-    display: none;
-  }
 }
 
 article .intro {
