@@ -39,6 +39,11 @@
     filter: saturate(180%);
   }
 
+  .logo {
+    width: 180px;
+    height: auto;
+  }
+
   .svg {
     width: 340px;
     height: auto;
@@ -99,6 +104,11 @@
   }
   .Programa:hover, .Juego:hover {
     filter: saturate(180%);
+  }
+
+  .logo {
+    width: 110px;
+    height: auto;
   }
 
   .svg {
