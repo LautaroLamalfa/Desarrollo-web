@@ -325,7 +325,7 @@ footer .margin {
 }
 footer .size {
   width: 80px;
-  height: 74px;
+  height: 80px;
 }
 footer li {
   background-color: #ff8c00;
@@ -344,7 +344,6 @@ footer a {
   color: black;
 }
 footer a:hover {
-  padding: 10px;
   background-color: black;
   color: #ff8c00;
 }

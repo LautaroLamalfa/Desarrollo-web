@@ -50,7 +50,7 @@ footer {
 
     .size {
         width: 80px ; 
-        height: 74px ;
+        height: 80px ;
     }
 
     li {
@@ -71,7 +71,6 @@ footer {
         color: $color-secundario;
 
         &:hover {
-            padding: 10px;
             background-color: $color-secundario;
             color: $color-primario;
         }
